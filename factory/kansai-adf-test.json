@@ -1,5 +1,13 @@
 {
 	"name": "kansai-adf-test",
+	"properties": {
+		"globalParameters": {
+			"param1": {
+				"type": "string",
+				"value": "value1"
+			}
+		}
+	},
 	"location": "japanwest",
 	"identity": {
 		"type": "SystemAssigned",
